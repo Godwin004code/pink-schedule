@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Search from "./components/Search";
 import "./App.css"
+import Schedule from "./components/Schedule";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Hero />
     <Explore />
     <Search />
+    <Schedule />
     </>
   );
 }
